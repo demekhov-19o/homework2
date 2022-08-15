@@ -10,11 +10,11 @@ int a = 7;
 int b  = 23;
 string txtResult =  "";
 
-if (number % a == 0 && number % b == 0) txtResult = "кратно обоим числам";
-else if (number % a != 0 && number % b != 0) txtResult = "не кратно ни одному из чисел";
-else if (number % a == 0) txtResult = $"кратно только числу {a}";
+if (number % a == 0 && number % b == 0) txtResult = "Кратно обоим числам";
+else if (number % a != 0 && number % b != 0) txtResult = "Не кратно ни одному из чисел";
+else if (number % a == 0) txtResult = $"Кратно только числу {a}";
 
-else txtResult = $" кратно только числу { b }";
+else txtResult = $" Кратно только числу { b }";
 
 System.Console.WriteLine($"Проверить кратность числа {number} числам {a} и {b} ");
 System.Console.WriteLine();
